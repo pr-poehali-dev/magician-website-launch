@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-magic-dark to-background overflow-hidden">
+    <div className="relative min-h-screen flex items-center justify-center bg-white overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
-        <div className="stars absolute w-2 h-2 rounded-full bg-white top-1/4 left-1/4 animate-pulse"></div>
-        <div className="stars absolute w-1 h-1 rounded-full bg-white top-1/2 left-1/3 animate-pulse"></div>
-        <div className="stars absolute w-1.5 h-1.5 rounded-full bg-white top-1/3 left-1/2 animate-pulse"></div>
-        <div className="stars absolute w-2 h-2 rounded-full bg-white top-2/3 left-2/3 animate-pulse"></div>
-        <div className="stars absolute w-1 h-1 rounded-full bg-white top-3/4 left-1/4 animate-pulse"></div>
+        <div className="stars absolute w-2 h-2 rounded-full bg-magic-purple/30 top-1/4 left-1/4 animate-pulse"></div>
+        <div className="stars absolute w-1 h-1 rounded-full bg-magic-purple/30 top-1/2 left-1/3 animate-pulse"></div>
+        <div className="stars absolute w-1.5 h-1.5 rounded-full bg-magic-purple/30 top-1/3 left-1/2 animate-pulse"></div>
+        <div className="stars absolute w-2 h-2 rounded-full bg-magic-purple/30 top-2/3 left-2/3 animate-pulse"></div>
+        <div className="stars absolute w-1 h-1 rounded-full bg-magic-purple/30 top-3/4 left-1/4 animate-pulse"></div>
       </div>
       
       <div className="container px-4 sm:px-6 lg:px-8 relative z-10">
@@ -21,13 +21,13 @@ const Hero = () => {
               <span className="text-sm font-medium">Магия высшего уровня</span>
             </div>
             
-            <h1 className="font-playfair text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="font-playfair text-4xl md:text-6xl font-bold mb-6 leading-tight text-gray-900">
               Невероятные фокусы <span className="text-magic-purple inline-flex items-center">
                 и иллюзии <Sparkles className="w-8 h-8 ml-2 animate-float" />
               </span>
             </h1>
             
-            <p className="text-lg md:text-xl mb-8 text-muted-foreground">
+            <p className="text-lg md:text-xl mb-8 text-gray-700">
               Превратите ваше мероприятие в незабываемое магическое шоу, которое оставит ваших гостей в восторге и изумлении.
             </p>
             
