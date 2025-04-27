@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Sparkles, Instagram, Facebook, Youtube, Mail } from "lucide-react";
+import { Sparkles, Instagram, Facebook, Youtube, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
